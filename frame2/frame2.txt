@@ -1,0 +1,1 @@
+实时采集的单帧图像frame2.jpg保存在frame2.jpg中
