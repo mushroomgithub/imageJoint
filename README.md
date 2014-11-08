@@ -16,6 +16,6 @@
 
 
 ###程序编译:
-* g++ -o dst src.cpp \`pkg-config opencv --cflags --libs\`   
+* g++   -o   dst   src.cpp  \`pkg-config opencv --cflags --libs\`   
 
 
