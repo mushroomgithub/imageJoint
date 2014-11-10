@@ -12,7 +12,7 @@
 * 在进行程序的编译前,请确定你已经安装了opencv2.4.9,和pkg-config包,本程序是在ubuntu14.04平台下实现的,在本项目目录下,已经有编译生成的可执行程序,其中Camera\_to\_Frmae.cpp是我们从双摄像头实时抓取单帧图像的源码         
 * ImageJoint.cpp和ImageJoint2.cpp,ImageJoint3.cpp分别是完成两张不同视角的
 图像拼接和三张不同视角的图像拼接程序,其中三张图像拼接的图像是我从网上找的现成的图像库
-* testusb.cpp是我们测试摄像头的程序.        
+* testusb.cpp是我测试摄像头的程序.        
 
 
 ###程序编译:
