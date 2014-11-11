@@ -35,12 +35,12 @@ int main(int argc,char* argv[])
     {
                 frame1 = cvQueryFrame( capture1  );
                 if( !frame1  ) break;
-                cvSaveImage("/home/mogu/opencv_imagejoint/imagejoint/frame1/frame1.jpg",frame1);
+                cvSaveImage("./frame1/frame1.jpg",frame1);
                 cvShowImage( "Camera_1", frame1  );
 
                 frame2 = cvQueryFrame( capture2  );
                 if( !frame2  ) break;
-                 cvSaveImage("/home/mogu/opencv_imagejoint/imagejoint/frame2/frame2.jpg",frame2);
+                 cvSaveImage("./frame2/frame2.jpg",frame2);
                 cvShowImage( "Camera_2", frame2  );
 
                 int key = cvWaitKey(30);
