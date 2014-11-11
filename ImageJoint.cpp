@@ -4,7 +4,7 @@
 //#pragma comment(lib,"opencv_core245.lib")
 //#pragma comment(lib,"opencv_highgui245.lib")
 int main(){    
-    const  char* file[2]={"/home/mogu/kinect/frame1/frame1.jpg","/home/mogu/kinect/frame2/frame2.jpg"};//2张原始图片    
+    const  char* file[2]={"/home/mogu/opencv_imagejoint/imagejoint/frame1/frame1.jpg","/home/mogu/opencv_imagejoint/imagejoint/frame2/frame2.jpg"};//2张原始图片    
     IplImage* pImg[2];      
     int i;    
      
@@ -13,7 +13,7 @@ int main(){
          
     int sw=pImg[0]->width;    
     int sh=pImg[0]->height;
-    IplImage* dstImg = cvCreateImage(cvSize(sw*5,sh*4),pImg[0]->depth,pImg[0]->nChannels);  
+    IplImage* dstImg = cvCreateImage(cvSize(sw*2,sh),pImg[0]->depth,pImg[0]->nChannels);  
        
     cvZero(dstImg);
     printf("Please wait...\n");
