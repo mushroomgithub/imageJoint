@@ -19,7 +19,7 @@
 * g++   -o   dst   src.cpp  \`pkg-config opencv --cflags --libs\` 
 
 ###程序的执行:
-* ./可执行程序名
+* ./dst
 
 
 
