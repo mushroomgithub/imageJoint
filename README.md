@@ -21,5 +21,16 @@
 ###程序的执行:
 * ./dst
 
+###效果
+
+**从摄像头设备采集两张单帧图像:**
+
+![frame1](./pic/frame1.jpg)
+![frame2](./pic/frame2.jpg)
+
+**图像拼接效果图:**
+![JointImage](./pic/result1.jpg)
+
+
 
 
