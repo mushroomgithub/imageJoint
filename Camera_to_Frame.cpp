@@ -17,6 +17,18 @@ int main(int argc,char* argv[])
 {
         CvCapture* capture1 = cvCreateCameraCapture( 0  );
         CvCapture* capture2 = cvCreateCameraCapture( 1  );
+        if(!capture1)  
+	{  
+		fprintf(stderr,"Could not initialize capturing1...\n");  
+		return -1;  
+	}
+	
+	if(!capture2)  
+	{  
+		fprintf(stderr,"Could not initialize capturing2...\n");  
+		return -1;  
+	}  
+	
 	const char* filename1="capture1.avi";
 	const char* filename2="capture2.avi";
         double w = 500, h = 320;
