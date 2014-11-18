@@ -18,8 +18,9 @@
 ###程序编译:
 * g++   -o   dst   src.cpp  \`pkg-config opencv --cflags --libs\` 
 
-###程序的执行:
+###程序的执行和退出:
 * ./dst
+* 程序需要退出时,按Ctrl+C快捷键
 
 ###效果
 
