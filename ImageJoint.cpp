@@ -4,7 +4,7 @@
 //#pragma comment(lib,"opencv_core245.lib")
 //#pragma comment(lib,"opencv_highgui245.lib")
 int main(){    
-    const  char* file[2]={"/home/mogu/opencv_imagejoint/imagejoint/frame1/frame1.jpg","/home/mogu/opencv_imagejoint/imagejoint/frame2/frame2.jpg"};//2张原始图片    
+    const  char* file[2]={"./frame1/frame1.jpg","./frame2/frame2.jpg"};//2张原始图片    
     IplImage* pImg[2];      
     int i;    
      
