@@ -1,0 +1,1 @@
+#从摄像头实时捕获的视频文件capture1.avi和capture2.avi保存在Vedio文件夹下,此处,我将自己测试的抓取的视频文件删除,哈哈,你们clone之后,可以运行Capture_to_Frmae程序,抓取自己喜欢的视频,和单帧图像
