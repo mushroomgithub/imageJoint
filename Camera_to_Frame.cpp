@@ -32,8 +32,8 @@ int main(int argc,char* argv[])
         IplImage* frame2;
         frame1 = cvQueryFrame( capture1  );
         frame2 = cvQueryFrame( capture2  );
-        CvVideoWriter *writer1 =cvCreateVideoWriter(filename1, -1, 25, cvSize(frame1->width,frame->height));//create writer 
-        CvVideoWriter *writer2 =cvCreateVideoWriter(filename2, -1, 25, cvSize(frame2->width,frame->height));//create writer 
+        CvVideoWriter *writer1 =cvCreateVideoWriter(filename1, -1, 25, cvSize(frame1->width,frame1->height));//create writer 
+        CvVideoWriter *writer2 =cvCreateVideoWriter(filename2, -1, 25, cvSize(frame2->width,frame2->height));//create writer 
         int n = 2;
         while(1)
     {
