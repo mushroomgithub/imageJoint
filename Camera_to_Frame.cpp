@@ -29,8 +29,8 @@ int main(int argc,char* argv[])
 		return -1;  
 	}  
 	
-	const char* filename1="./capture1.avi";
-	const char* filename2="./capture2.avi";
+	const char* filename1="./Vedio/capture1.avi";
+	const char* filename2="./Vedio/capture2.avi";
         double w = 500, h = 320;
         cvSetCaptureProperty ( capture1, CV_CAP_PROP_FRAME_WIDTH,  w  );  
         cvSetCaptureProperty ( capture1, CV_CAP_PROP_FRAME_HEIGHT, h  );
